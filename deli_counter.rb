@@ -15,9 +15,9 @@ def line(katz_deli_line)
   end
 end
 
-def take_a_number(array, name)
-  array << name
-  position = array.index(name)
+def take_a_number(katz_deli_line, name)
+  katz_deli_line << name
+  position = katz_deli_line.index(name)
   puts "Welcome, #{name}. You are number #{position + 1} in line."
 end
 
