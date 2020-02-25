@@ -17,7 +17,7 @@ end
 
 def take_a_number(katz_deli_line, name)
   katz_deli_line << name
-  position = katz_deli_line.index(name)
+  position = katz_deli_line.length
   puts "Welcome, #{name}. You are number #{position + 1} in line."
 end
 
