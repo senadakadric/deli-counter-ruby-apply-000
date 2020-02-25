@@ -8,7 +8,7 @@ def line(katz_deli_line)
   else
     output = "The line is currently:"
 
-    array.each_with_index do |name, index|
+    katz_deli_line.each_with_index do |name, index|
     output += " #{index + 1}. #{name}"
     end
     puts output
