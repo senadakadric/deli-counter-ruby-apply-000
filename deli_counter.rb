@@ -2,8 +2,8 @@
 
 katz_deli = []
 
-def line(array)
-  if array.length == 0
+def line(katz_deli_line)
+  if katz_deli_line.length == 0
     puts "The line is currently empty."
   else
     output = "The line is currently:"
