@@ -23,5 +23,6 @@ end
 
 
 def now_serving(array)
-  array.length == 0 ? (puts "There is nobody waiting to be served!") : (puts "Currently serving #{array[0]}." array.shift)
+  array.length == 0 ? (puts "There is nobody waiting to be served!") : (puts "Currently serving #{array[0]}.")
+  array.shift
 end
